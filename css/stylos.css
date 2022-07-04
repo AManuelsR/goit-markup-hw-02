@@ -1,0 +1,152 @@
+body{
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+
+header{
+    width: 1600px;
+    position: relative;
+    height: 80px;
+}
+
+.logo{
+    width: 145px;
+    height: 31px;
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #2196F3;
+}
+
+a{
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 14px;
+}
+
+main{
+    width: 1600px;
+    
+}
+
+.banner{
+    width: 1600px;
+    background: #2F303A;
+    height: 600px;
+    position: relative;
+}
+
+.boton-banner{
+    position: absolute;
+    top: 550px;
+    width: 260px;
+    height: 50px;
+    font-size: 16px;
+    background: #2196F3;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 0;
+
+}
+
+.text-banner{
+    position: absolute;
+    top: 20px;    
+    color: white;
+    font-size: 40px;
+}
+
+
+
+.container{
+    position: relative;
+    width: 1600px;
+    
+}
+
+h3{
+    text-align: center;
+}
+
+.values-container{
+    position: relative;
+    float: left;
+    width: 400px;
+    text-align: justify;
+   
+}
+
+.servicios{
+    position: relative;
+    display: inline-block;    
+}
+
+.container-equipo{
+    position: relative;
+    width: 1600px;
+    
+}
+
+img{
+    width: 270px;
+    height: 260px;
+}
+
+.work-team{
+    display: inline-block;            
+}
+
+footer{
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;    
+}
+
+p{
+    color: black;
+}
+
+/*Pagina Portafolio*/
+
+.menu{
+    width: 1600px;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.portafolio-estudio{
+    width: 1520px;
+    margin: 10px;
+    margin-left: 80px;    
+}
+
+.port-group{
+    display: inline-block;
+    width: 400px;
+    height: 400px;    
+}
+
+.menu-button{
+    text-align: center;
+}
+
+button:hover{
+    background:red;
+    color: black;
+    border: 0;
+}
+
+button:focus{
+    background:rgb(0, 89, 255);
+    color: black;
+    border: 0;
+}
+
+a:hover{
+    background:rgb(0, 255, 128);
+    color: black;
+    border: 0;
+    border-radius: 10px;
+}
